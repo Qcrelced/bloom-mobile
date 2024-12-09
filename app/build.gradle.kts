@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.declercq.bloom"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.declercq.bloom"
@@ -40,6 +40,13 @@ android {
 }
 
 dependencies {
+
+    implementation("com.squareup.okhttp3:okhttp:+")
+    implementation("com.google.code.gson:gson:+")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0")
+    implementation("com.github.bumptech.glide:compose:1.0.0-beta01")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+    implementation("androidx.navigation:navigation-compose:2.7.0")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
