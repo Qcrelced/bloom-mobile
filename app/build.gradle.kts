@@ -10,8 +10,8 @@ android {
 
     defaultConfig {
         applicationId = "com.declercq.bloom"
-        minSdk = 24
-        targetSdk = 34
+        minSdk = 29
+            targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
